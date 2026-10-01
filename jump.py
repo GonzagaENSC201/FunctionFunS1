@@ -52,4 +52,7 @@ def main():
 
     # TODO: call calculate_horizontal_speed() to test it
 
-main()
+# only call main if this file is run directly
+# how run indirectly? another file has: import jump
+if __name__ == "__main__":
+    main()
