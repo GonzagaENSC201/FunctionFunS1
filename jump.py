@@ -16,6 +16,7 @@ def calculate_jump_distance(speed, airtime):
     distance = speed * airtime
     return distance
 
+# 11. practice
 def calculate_horizontal_speed(distance, airtime):
     """Calculates horizontal speed for a stunt given 
     known horizontal distance and airtime.
