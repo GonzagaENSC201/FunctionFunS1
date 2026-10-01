@@ -44,7 +44,6 @@ def main():
     # 7. practice
     user_speed, user_airtime = get_user_speed_airtime()
     jump_distance = calculate_jump_distance(user_speed, user_airtime)
-    jump_distance = calculate_jump_distance(user_speed, user_airtime)
 
     print(f"Speed: {user_speed} m/s")
     print(f"Airtime: {user_airtime} seconds")
